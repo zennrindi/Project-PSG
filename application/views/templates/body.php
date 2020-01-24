@@ -26,7 +26,8 @@
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="<?php echo base_url('jeweler-master/'); ?>#">
+                                                                <a href="<?php echo base_url('jeweler-master/')
+                                                                ; ?>#">
                                                                     <div class="notification-icon">
                                                                         <i class="fa fa-cloud adminpro-cloud-computing-down" aria-hidden="true"></i>
                                                                     </div>

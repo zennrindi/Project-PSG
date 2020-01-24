@@ -72,6 +72,10 @@
                 <a href="<?php echo base_url('jeweler-master/'); ?>index.html"><img class="main-logo" src="<?php echo base_url('jeweler-master/'); ?>img/logo/logo.png" alt="" /></a>
                 <strong><img src="<?php echo base_url('jeweler-master/'); ?>img/logo/logosn.png" alt="" /></strong>
             </div>
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-store"></i>
+            </div>
+            <div class="sidebar-brand-text mx-3">TOKO ONLINE</div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
