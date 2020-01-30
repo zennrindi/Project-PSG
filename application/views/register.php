@@ -84,8 +84,12 @@
                 </div>
                 <div class="hpanel">
                     <div class="panel-body">
-                        <form action="#" id="loginForm">
+                        <form role="form" method="post" action="<?php echo base_url('kontrol/regis'); ?>">
                             <div class="row">
+                                <div class="form-group col-lg-6">
+                                    <label>ID</label>
+                                    <input type="hidden" name="id_user" class="form-control">
+                                </div>
                                 <div class="form-group col-lg-12">
                                     <label>Full Name</label>
                                     <input type="text" name="nama" class="form-control">
@@ -114,7 +118,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                               <a href="<?php echo(base_url('login/')); ?>" ><button class="btn btn-success loginbtn">Register</button> </a> 
+                               <button type="submit" class="btn btn-primary mt-4">Register</button> </a> 
                                 <button class="btn btn-default">Cancel</button>
                             </div>
                         </form>

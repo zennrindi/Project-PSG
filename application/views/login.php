@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="<?php echo base_url('jeweler-master/'); ?><?php echo base_url('jeweler-master/'); ?>css/responsive.css">
     <!-- modernizr JS
 		============================================ -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -76,22 +76,20 @@
                 </div>
                 <div class="hpanel">
              <div class="panel-body">
-                        <form action="#" id="loginForm">
+                        <form method="post" action="<?php echo base_url('kontrol/awal') ?>">
                             <div class="form-group">
                                 <label class="control-label" for="username">Username</label>
                                 <input type="text"  name="username" id="username" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label class="control-label" for="password">Password</label>
-                                <input type="pwd" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
+                                <input placeholder="******" type="password" name="pwd" class="form-control">
                                 <span class="help-block small">Your password has strong</span>
                             </div>
                             <div class="checkbox login-checkbox">
-                                <label>
-										<input type="checkbox" class="i-checks"> Remember me </label>
-                                <p class="help-block small">(if this is a private computer)</p>
+                               <p class="help-block small">(if this is a private computer)</p>
                             </div>
-                            <button class="btn btn-success btn-block loginbtn">Login</button>
+                            <a href="<?php echo base_url('awal/') ?>"><button type="submit" class="btn btn-success btn-block loginbtn">Login</button></a>
                             <a href="<?php echo base_url('kontrol/register'); ?>" class="btn btn-default btn-block">Register</a>
                         </form>
                     </div>
@@ -108,49 +106,49 @@
 
     <!-- jquery
 		============================================ -->
-    <script src="js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/vendor/jquery-1.11.3.min.js"></script>
     <!-- bootstrap JS
 		============================================ -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/bootstrap.min.js"></script>
     <!-- wow JS
 		============================================ -->
-    <script src="js/wow.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/wow.min.js"></script>
     <!-- price-slider JS
 		============================================ -->
-    <script src="js/jquery-price-slider.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
 		============================================ -->
-    <script src="js/jquery.meanmenu.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
 		============================================ -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/owl.carousel.min.js"></script>
     <!-- sticky JS
 		============================================ -->
-    <script src="js/jquery.sticky.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/jquery.sticky.js"></script>
     <!-- scrollUp JS
 		============================================ -->
-    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/jquery.scrollUp.min.js"></script>
     <!-- mCustomScrollbar JS
 		============================================ -->
-    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
 		============================================ -->
-    <script src="js/metisMenu/metisMenu.min.js"></script>
-    <script src="js/metisMenu/metisMenu-active.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/metisMenu/metisMenu.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/metisMenu/metisMenu-active.js"></script>
     <!-- tab JS
 		============================================ -->
-    <script src="js/tab.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/tab.js"></script>
     <!-- icheck JS
 		============================================ -->
-    <script src="js/icheck/icheck.min.js"></script>
-    <script src="js/icheck/icheck-active.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/icheck/icheck.min.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/icheck/icheck-active.js"></script>
     <!-- plugins JS
 		============================================ -->
-    <script src="js/plugins.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/plugins.js"></script>
     <!-- main JS
 		============================================ -->
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url('jeweler-master/'); ?>js/main.js"></script>
 </body>
 
 </html>
